@@ -7,25 +7,15 @@ This system was developed as part of the Database Systems course to address the 
 ### Overview
 The platform simulates a real-world environment where:
 
-**Clients** :
+- **Clients** can browse, wishlist, and view properties, follow companies, attend marketing campaigns, and contact agents for purchases or rentals.
 
-Clients can browse, wishlist, and view properties, follow companies, attend marketing campaigns, and contact agents for purchases or rentals.
+- **Agents** can be **employees** affiliated with real estate companies or **freelancers**, each responsible for scanning properties, negotiating with clients, and signing contracts.
 
-**Agents** :
+- **Companies** subscribe to the platform, manage their agents and property listings, and run targeted marketing campaigns.
 
-They can be **employees** affiliated with real estate companies or **freelancers**, each responsible for scanning properties, negotiating with clients, and signing contracts.
-
-**Companies** :
-
-They subscribe to the platform, manage their agents and property listings, and run targeted marketing campaigns.
-
-**Properties** :
-
-Properties include detailed specifications, ownership data, geographic and zoning info, and are associated with contracts and campaigns.
-
-**Contracts and transactions** :
-
-They are fully recorded, supporting both one-time payments and installment-based plans.
+- **Properties** include detailed specifications, ownership data, geographic and zoning info, and are associated with contracts and campaigns.
+  
+- **Contracts and transactions** are fully recorded, supporting both one-time payments and installment-based plans.
 
 This schema allows for high flexibility while ensuring referential integrity, support for real-world constraints, and clear tracking of all entity interactions.
 
