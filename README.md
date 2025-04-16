@@ -7,11 +7,25 @@ This system was developed as part of the Database Systems course to address the 
 ### Overview
 The platform simulates a real-world environment where:
 
-- **Clients** can browse, wishlist, and view properties, follow companies, attend marketing campaigns, and contact agents for purchases or rentals.
-- **Agents** can be **employees** affiliated with real estate companies or **freelancers**, each responsible for scanning properties, negotiating with clients, and signing contracts.
-- **Companies** subscribe to the platform, manage their agents and property listings, and run targeted marketing campaigns.
-- **Properties** include detailed specifications, ownership data, geographic and zoning info, and are associated with contracts and campaigns.
-- **Contracts and transactions** are fully recorded, supporting both one-time payments and installment-based plans.
+**Clients** :
+
+Clients can browse, wishlist, and view properties, follow companies, attend marketing campaigns, and contact agents for purchases or rentals.
+
+**Agents** :
+
+They can be **employees** affiliated with real estate companies or **freelancers**, each responsible for scanning properties, negotiating with clients, and signing contracts.
+
+**Companies** :
+
+They subscribe to the platform, manage their agents and property listings, and run targeted marketing campaigns.
+
+**Properties** :
+
+Properties include detailed specifications, ownership data, geographic and zoning info, and are associated with contracts and campaigns.
+
+**Contracts and transactions** :
+
+They are fully recorded, supporting both one-time payments and installment-based plans.
 
 This schema allows for high flexibility while ensuring referential integrity, support for real-world constraints, and clear tracking of all entity interactions.
 
@@ -30,9 +44,9 @@ Built entirely using **relational modeling** with use of:
 - Full normalization to reduce redundancy
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/876b6d1c-ac93-40b2-8a8d-5d7c71de5ecd" alt="ER Diagram" width=60%>
+<img src="https://github.com/user-attachments/assets/876b6d1c-ac93-40b2-8a8d-5d7c71de5ecd" alt="ER Diagram" width=80%>
 </p>
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/e734e12b-3aff-4ce9-a5fa-8d3aa33a4f9a" alt="Schema" width=75%>
+<img src="https://github.com/user-attachments/assets/e734e12b-3aff-4ce9-a5fa-8d3aa33a4f9a" alt="Schema" width=83%>
 </p>
