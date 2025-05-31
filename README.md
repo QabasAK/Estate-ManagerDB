@@ -25,6 +25,10 @@ This schema allows for high flexibility while ensuring referential integrity, su
 - `queries.sql`: Various queries (JOINs, aggregate queries, updates, deletions)
 - `DatabaseProject.pdf`: Full project report with ERD and schema
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/876b6d1c-ac93-40b2-8a8d-5d7c71de5ecd" alt="ER Diagram" width=80%>
+</p>
+
 ### Schema & ER Diagram
 Built entirely using **relational modeling** with use of:
   - **Primary & Foreign keys**
@@ -32,10 +36,6 @@ Built entirely using **relational modeling** with use of:
   - **Check constraints**
 - Many-to-many relationships handled through join tables (e.g. `ATTENDS`, `PARTICIPATES`, `INCLUDES`)
 - Full normalization to reduce redundancy
-
-<p align="center">
-<img src="https://github.com/user-attachments/assets/876b6d1c-ac93-40b2-8a8d-5d7c71de5ecd" alt="ER Diagram" width=80%>
-</p>
 
 <p align="center">
 <img src="https://github.com/user-attachments/assets/e734e12b-3aff-4ce9-a5fa-8d3aa33a4f9a" alt="Schema" width=83%>
