@@ -5,6 +5,11 @@ A robust relational database project built using **MySQL** to streamline and cen
 This system was developed as part of the Database Systems course to address the growing complexity and inefficiencies in traditional real estate platforms, offering a digital solution for seamless data handling and transparent operations.
 
 ### Overview
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/876b6d1c-ac93-40b2-8a8d-5d7c71de5ecd" alt="ER Diagram" width=80%>
+</p>
+
 The platform simulates a real-world environment where:
 
 - **Clients** can browse, wishlist, and view properties, follow companies, attend marketing campaigns, and contact agents for purchases or rentals.
@@ -25,11 +30,7 @@ This schema allows for high flexibility while ensuring referential integrity, su
 - `queries.sql`: Various queries (JOINs, aggregate queries, updates, deletions)
 - `DatabaseProject.pdf`: Full project report with ERD and schema
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/876b6d1c-ac93-40b2-8a8d-5d7c71de5ecd" alt="ER Diagram" width=80%>
-</p>
-
-### Schema & ER Diagram
+### Schema from ER Diagram
 Built entirely using **relational modeling** with use of:
   - **Primary & Foreign keys**
   - **Cascade deletions**
